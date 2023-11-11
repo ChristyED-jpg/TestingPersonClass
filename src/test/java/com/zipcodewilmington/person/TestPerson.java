@@ -18,7 +18,7 @@ public class TestPerson {
 
         // Then
         String actualName = person.getName();
-        Integer actualAge = person.getAge();
+        Integer actualAge = person.Age();
 
         Assert.assertEquals(expectedName, actualName);
         Assert.assertEquals(expectedAge, actualAge);
